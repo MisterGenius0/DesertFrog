@@ -41,6 +41,7 @@ ul
 img
 {
     max-width: 50%;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.6);
 }
 
 p
@@ -167,7 +168,10 @@ hr
     flex: 1;
     background-color: #c09a80;
     border-radius: 20px;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.6);
     padding: 30px;
+    
+    
     
 }
 
