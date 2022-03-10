@@ -57,11 +57,17 @@ h1, h2
     font-size: xx-large;
   font-family: 'Lobster', cursive;
     margin-bottom: 15px;
+    
 }
 
 hr
 {
- color: #2b140f;
+    border-style: unset;
+    height: 5px;
+    background-color: #2b140f;
+    color: #2b140f;
+    
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.6);
 }
 
 /*Custom elements*/
@@ -151,7 +157,7 @@ hr
 {
     margin: 0 auto;
     padding: 10px 0;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
